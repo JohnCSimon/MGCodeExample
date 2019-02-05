@@ -15,3 +15,6 @@ run the three nunit based unit tests with
 dotnet test
 
 ```
+
+regarding the code itself - I parse through the csv line by line and build up an object that represents the json data. 
+I then feed the object into Newtonsoft Json.net serializer to turn the object into json. 
